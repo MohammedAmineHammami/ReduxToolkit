@@ -1,0 +1,69 @@
+
+* {
+    margin: 0;
+}
+
+
+.navbar {
+    margin-bottom: 10vh;
+    height: 10vh;
+    width:100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.stamp {
+    height: 100%;
+}
+
+.search {
+    width: 40%;
+    height: 45%;
+    background-color: white;
+    border-radius:1rem ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 1px white , -1px -1px 1px white;
+    
+}
+
+.input {
+    width: 100%;
+    height: 45%;
+    border-radius:1rem;
+    border: none;
+    outline: none;
+}
+
+.searchIcon {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+    height: 100%;
+}
+
+span {
+    color: rgb(211, 8, 8);
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+.item {
+    display: flex;
+    gap: 10%;
+}
+
+.navItems {
+    display: flex;
+    flex-direction: row;
+    gap: 40%;
+}

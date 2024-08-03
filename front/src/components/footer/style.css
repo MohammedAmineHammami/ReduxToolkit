@@ -1,0 +1,20 @@
+
+.footer {
+    height: 30vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    margin-top:10vh;
+}
+
+a {
+   color: rgb(211, 8, 8);
+}
+
+span{
+    color:rgb(211, 8, 8) ;
+}
