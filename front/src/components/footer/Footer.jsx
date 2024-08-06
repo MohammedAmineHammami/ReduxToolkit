@@ -3,30 +3,30 @@ import "./style.css";
 
 function Footer() {
   return (
-    <footer class="footer">
-      <div class="container">
-        <div class="footer-section">
+    <footer className="footer">
+      <div className="container">
+        <div className="footer-section">
           <h6>Company</h6>
           <p>&copy; 2024 Company Name. All rights reserved.</p>
         </div>
-        <div class="footer-section">
+        <div className="footer-section">
           <h6>Links</h6>
           <a href="#">About Us</a>
           <a href="#">Contact</a>
           <a href="#">Privacy Policy</a>
         </div>
-        <div class="footer-section">
+        <div className="footer-section">
           <h6>Follow Us</h6>
-          <div class="social-icons">
-            <a href="https://facebook.com" class="fab fa-facebook-f"></a>
-            <a href="https://twitter.com" class="fab fa-twitter"></a>
-            <a href="https://instagram.com" class="fab fa-instagram"></a>
+          <div className="social-icons">
+            <a href="https://facebook.com" className="fab fa-facebook-f"></a>
+            <a href="https://twitter.com" className="fab fa-twitter"></a>
+            <a href="https://instagram.com" className="fab fa-instagram"></a>
           </div>
         </div>
       </div>
-      <div class="footer-bottom">
+      <div className="footer-bottom">
         <p>
-          Made with Love <i class="fas fa-heart"></i> by :{" "}
+          Made with Love <i className="fas fa-heart"></i> by :{" "}
           <span> Mohamed Amine Hammami</span>{" "}
         </p>
       </div>

@@ -67,3 +67,12 @@ span {
     flex-direction: row;
     gap: 40%;
 }
+
+.notification {
+    width: 50px;
+    color:rgb(211, 8, 8);
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+  
+}

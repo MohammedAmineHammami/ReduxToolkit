@@ -18,3 +18,9 @@ a {
 span{
     color:rgb(211, 8, 8) ;
 }
+
+.cancel {
+    position: relative;
+    top: 3%;
+    left: 1.5%;
+}

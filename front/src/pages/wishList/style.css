@@ -1,4 +1,14 @@
 
 .wishListHead {
     text-align: center;
+    margin-bottom: 30px;
+}
+
+.favoriteItems {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
 }
